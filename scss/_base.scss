@@ -1,0 +1,15 @@
+@import 'variables';
+body {
+    color: $secondary-color;
+    background-color: $primary-color;
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $secondary-color;
+}

@@ -1,0 +1,32 @@
+@import 'mixins';
+@import 'variables';
+.same-height {
+  @include flex-column-space; 
+  }
+  
+  .same-height .card-body {
+    flex-grow: 1;
+    @include flex-column-space;
+    align-items: center;
+  }
+  
+  .same-height img {
+    object-fit: cover;
+    height: 300px;
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+  
+  .btn-small {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: none;
+  }
+  
+  .btn-small:hover {
+    background-color: darken($primary-color, 10%);
+  }

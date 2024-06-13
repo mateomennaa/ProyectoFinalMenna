@@ -1,0 +1,25 @@
+@import 'variables';
+.footer {
+    background-color: $primary-color;
+    color: $secondary-color;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .social-icons a {
+    color: $secondary-color;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .textofooter {
+    display: block;
+    margin-top: 20px;
+  }

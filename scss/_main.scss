@@ -1,0 +1,33 @@
+.main {
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+    width: 1300px;
+  }
+  
+  .main h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  main .centrado {
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.3em;
+    font-size: 1.5em;
+}
+  
+  .d-item {
+    height: 500px;
+  }
+  
+  .d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  
+  .descripcion {
+    text-align: justify;
+    line-height: 1.7em;
+  }

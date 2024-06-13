@@ -1,0 +1,32 @@
+@import 'variables';
+.logo {
+  width: 170px;
+}
+.navbar-text,
+.navbar-brand,
+.nav-link {
+  color: $secondary-color !important;
+}
+
+.nav-link:hover {
+  color: $green-color !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 50px;
+}
+
+.nav-link {
+  font-size: 1.2em;
+}
